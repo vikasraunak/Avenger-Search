@@ -42,12 +42,12 @@
       <form action="https://www.google.com.com" method="get">
         <input class="input" type="text" name="q" id="field" autofocus>
         <div class="buttons">
-          <input type="submit" class="button" id="x1" name="x1" value="Bing"> 
-          <input type="submit" class="button" id="x2" name="x2" value="Google">
+          <input type="submit" class="button" id="x1" name="x1" value="Google"> 
+          <input type="submit" class="button" id="x2" name="x2" value="Bing">
           <input type="submit" class="button" id="x5" name="x5" value="News"> 
-          <input type="submit" class="button" id="x6" name="x6" value="Twitter">
-          <input type="submit" class="button" id="x3" name="x3" value="Duck"> 
-          <input type="submit" class="button" id="x4" name="x4" value="SO">
+          <input type="submit" class="button" id="x6" name="x6" value="YouTube">
+          <input type="submit" class="button" id="x3" name="x3" value="Twitter"> 
+          <input type="submit" class="button" id="x4" name="x4" value="Duck">
           
         </div>
       </form>
@@ -77,10 +77,10 @@ if (x=="News")
  window.location = "https://news.google.com/news?q=" + $(".input").val();
 
 }
-if (x=="SO")
+if (x=="YouTube")
 {
 
- window.location = "http://stackoverflow.com/search?q=" + $(".input").val();
+ window.location = "https://www.youtube.com/results?search_query=" + $(".input").val();
 
 }
 
